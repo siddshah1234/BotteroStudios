@@ -1,0 +1,3 @@
+- Projects Page
+- Get new image for home background
+- Get new images for the about page
