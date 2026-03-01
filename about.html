@@ -1,41 +1,36 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Videograph Template">
-    <meta name="keywords" content="Videograph, unica, creative, html">
+    <meta name="description" content="About Bottero Studios — An app & website creation studio. Meet the team and read what users say.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bottero Studios</title>
+    <title>About — Bottero Studios</title>
+    <link rel="icon" href="img/botterobot.jpg" type="image/jpg">
 
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/design-system.css" type="text/css">
+    <link rel="stylesheet" href="css/components.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-
 <body>
-    <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
 
-    <!-- Header Section Begin -->
-    <header class="header">
+    <header class="header header--sticky" id="main-header">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="img/logo.png" alt="Bottero Studios"></a>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -44,30 +39,29 @@
                             <ul>
                                 <li><a href="./index.html">Home</a></li>
                                 <li class="active"><a href="./about.html">About</a></li>
+                                <li><a href="./index.html#projects">Projects</a></li>
+                                <li><a href="./index.html#contact">Contact</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
-                            <a href="https://www.instagram.com/botterostudios?igsh=MTI4OHJmZjdzb25yZw=="><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/botterostudios?igsh=MTI4OHJmZjdzb25yZw==" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="mobile-menu-wrap"></div>
         </div>
+        <div id="mobile-menu-wrap"></div>
     </header>
-    <!-- Header End -->
 
-    <!-- About Section Begin -->
-    <section class="about spad" style="padding-top: 180px;">
-        <div class="container">
-            <div class="row">
-                
+    <!-- About Section -->
+    <section class="about section section--dark" style="padding-top: 140px;">
+        <div class="container container--custom">
+            <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about__pic">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="about__pic__item about__pic__item--large set-bg"
-                                    data-setbg="img/buildinghand.jpg"></div>
+                                <div class="about__pic__item about__pic__item--large set-bg" data-setbg="img/buildinghand.jpg"></div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="row">
@@ -85,156 +79,121 @@
                 <div class="col-lg-6">
                     <div class="about__text">
                         <div class="section-title">
-                            <span>About Bottero Studios</span>
+                            <span class="section-title__eyebrow">About Bottero Studios</span>
                             <h2>Who We Are</h2>
-                            
                         </div>
-                        
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="services__item">
-                                    
-                                    <h4>Our Project Goals</h4>
-                                    <p>As a whole, Bottero Studios works to provide helpful and impactful projects—whether a Discord chat and music bot to enhance your time with friends, or an ASL robot hand to assist people in learning ASL.</p>
-                                </div>
-                            </div>
+                        <p>We're an app & website creation studio building independent projects — client work coming soon. As a whole, we work to provide helpful and impactful projects, whether a Discord chat and music bot or an ASL robot hand to assist people in learning ASL.</p>
+                        <p class="about__text__desc">Founded in March 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials: clean surface -->
+    <section class="testimonial section section--dark testimonial--cards">
+        <div class="testimonial__overlay" aria-hidden="true"></div>
+        <div class="container container--custom">
+            <div class="section-title section-title--center">
+                <span class="section-title__eyebrow">Loved by users</span>
+                <h2>What Do Users Say?</h2>
+            </div>
+            <div class="row testimonial__grid">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
+                        <p class="testimonial-card__text">This Discord bot was so much fun! My friends and I had a great time playing music in our calls. Thanks, Bottero Studios!</p>
+                        <div class="testimonial-card__author">
+                            <img src="img/team/everything/pranav.png" alt="">
+                            <span>Pranav Sureshkumar</span>
                         </div>
-                        <div class="about__text__desc">
-                            <p>Founded in March 2024</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
+                        <p class="testimonial-card__text">I checked out some of Bottero Studios' brand-new social media posts. Super fun and engaging!</p>
+                        <div class="testimonial-card__author">
+                            <img src="img/team/everything/patrick.png" alt="">
+                            <span>Patrick Steiff</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
+                        <p class="testimonial-card__text">Rishi showed me a picture of their robot hand that does sign language, and I thought it was really cool.</p>
+                        <div class="testimonial-card__author">
+                            <img src="img/team/everything/dani.png" alt="">
+                            <span>Daniyal Mohammed</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- About Section End -->
 
-    <!-- Testimonial Section Begin -->
-    <section class="testimonial spad set-bg" data-setbg="img/testimonial-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title center-title">
-                        <span>Loved By Users</span>
-                        <h2>What Do Users Say?</h2>
-                    </div>
-                </div>
+    <!-- Team: section--dark so header is visible -->
+    <section class="team section section--dark team--premium" id="team">
+        <div class="container container--custom">
+            <div class="section-title section-title--center team__title">
+                <span class="section-title__eyebrow">Meet</span>
+                <h2>Our Team</h2>
             </div>
-            <div class="row">
-                <div class="testimonial__slider owl-carousel">
-                    <div class="col-lg-4">
-                        <div class="testimonial__item">
-                            <div class="testimonial__text">
-                                <p>This Discord bot was so much fun! My friends and I had a great time playing music in our calls. Thanks, Bottero Studios!</p>
-                            </div>
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="img/team/everything/pranav.png" alt="">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Pranav Sureshkumar</h5>
-                                </div>
-                            </div>
+            <div class="row team__grid">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <a href="team/dylan.html" class="team-card">
+                        <div class="team-card__img-wrap">
+                            <img src="img/team/dylan.jpg" alt="Dylan Cortegana">
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial__item">
-                            <div class="testimonial__text">
-                                <p>I checked out some of Bottero Studios' brand-new social media posts. Super fun and engaging!</p>
-                            </div>
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="img/team/everything/patrick.png" alt="">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Patrick Steiff</h5>
-                                </div>
-                            </div>
+                        <h4 class="team-card__name">Dylan Cortegana</h4>
+                        <p class="team-card__role">Developer</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <a href="team/rishi.html" class="team-card">
+                        <div class="team-card__img-wrap">
+                            <img src="img/team/rishii.jpg" alt="Rishi Rana">
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial__item">
-                            <div class="testimonial__text">
-                                <p>Rishi showed me a picture of their robot hand that does sign language, and I thought it was really cool. </p>
-                            </div>
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="img/team/everything/dani.png" alt="">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Daniyal Mohammed</h5>
-                                </div>
-                            </div>
+                        <h4 class="team-card__name">Rishi Rana</h4>
+                        <p class="team-card__role">Developer</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <a href="team/siddhant.html" class="team-card">
+                        <div class="team-card__img-wrap">
+                            <img src="img/team/siddhant.png" alt="Siddhant Shah">
                         </div>
-                    </div>
+                        <h4 class="team-card__name">Siddhant Shah</h4>
+                        <p class="team-card__role">Developer</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <a href="team/veer.html" class="team-card">
+                        <div class="team-card__img-wrap">
+                            <img src="img/team/veer.jpg" alt="Veer Mangat">
+                        </div>
+                        <h4 class="team-card__name">Veer Mangat</h4>
+                        <p class="team-card__role">Computer Engineer</p>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Testimonial Section End -->
 
-
-    <section class="team spad set-bg" data-setbg="img/team-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title team__title">
-                        <span>Meet</span>
-                        <h2>Our Team</h2>
-                    </div>
-                </div>
-            
-            <div class="row-1">
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item set-bg"> <a href="team/dylan.html"><img src="img/team/dylan.jpg" alt="Dylan Cortegana"></a>
-                        <div class="team__item__text">
-                            <h4>Dylan Cortegana</h4>
-                            <p>Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--second set-bg"> <a href="team/rishi.html"><img src="img/team/rishii.jpg" alt="Rishi Rana"></a>
-                        <div class="team__item__text">
-                            <h4>Rishi Rana</h4>
-                            <p>Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--third set-bg"> <a href="team/siddhant.html"><img src="img/team/siddhant.png" alt="Siddhant Shah"></a>
-                        <div class="team__item__text">
-                            <h4>Siddhant Shah</h4>
-                            <p>Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--four set-bg"> <a href="team/veer.html"><img src="img/team/veer.jpg" alt="Veer Mangat"></a>
-                        <div class="team__item__text">
-                            <h4>Veer Mangat</h4>
-                            <p>Computer Engineer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-             
+    <footer class="footer section--dark">
+        <div class="container container--custom">
+            <div class="footer__inner">
+                <a href="./index.html" class="footer__logo"><img src="img/logo.png" alt="Bottero Studios"></a>
+                <p class="footer__copy">© Bottero Studios. App & website creation studio.</p>
             </div>
         </div>
-    </section>
-   
-    <!-- Footer Section End -->
+    </footer>
 
-    <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
 </body>
-
 </html>

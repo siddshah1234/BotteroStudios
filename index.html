@@ -1,42 +1,34 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Videograph Template">
-    <meta name="keywords" content="Videograph, unica, creative, html">
+    <meta name="description" content="Bottero Studios — An app & website creation studio. Independent projects, client work coming soon.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bottero Studios</title>
+    <title>Bottero Studios — App & Website Creation Studio</title>
+    <link rel="icon" href="img/botterobot.jpg" type="image/jpg">
 
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="icon" href="/img/botterobot.jpg" type="image/jpg">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/design-system.css" type="text/css">
+    <link rel="stylesheet" href="css/components.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-
 <body>
-    <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
 
-    <!-- Header Section Begin -->
-    <header class="header">
+    <!-- Nav: sticky glass -->
+    <header class="header header--sticky" id="main-header">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt="Bottero Studios logo"></a>
+                        <a href="./index.html"><img src="img/logo.png" alt="Bottero Studios"></a>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -45,111 +37,185 @@
                             <ul>
                                 <li class="active"><a href="./index.html">Home</a></li>
                                 <li><a href="./about.html">About</a></li>
+                                <li><a href="./index.html#projects">Projects</a></li>
+                                <li><a href="./index.html#contact">Contact</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
-                            <a href="https://www.instagram.com/botterostudios?igsh=MTI4OHJmZjdzb25yZw=="><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/botterostudios?igsh=MTI4OHJmZjdzb25yZw==" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="mobile-menu-wrap"></div>
         </div>
+        <div id="mobile-menu-wrap"></div>
     </header>
-    <!-- Header End -->
 
-    <!-- Hero Section Begin -->
-    <section class="hero">
-        <div class="hero__slider owl-carousel">
-            <div class="hero__item set-bg" data-setbg="img/winning.png" >
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="hero__text">
-                                <span>Where IDEAS COME TO LIFE</span>
-                                <h2>Bottero Studios</h2>
-                                <a href="about.html" class="primary-btn">See more about us</a> 
-                            </div>
-                        </div>
+    <!-- Hero -->
+    <section class="hero hero--single" id="hero">
+        <div class="hero__bg set-bg" data-setbg="img/winning.png"></div>
+        <div class="hero__overlay"></div>
+        <div class="hero__noise" aria-hidden="true"></div>
+        <div class="container">
+            <div class="hero__inner">
+                <div class="hero__badge reveal-item">Student-led studio</div>
+                <div class="hero__glass reveal-item">
+                    <h1 class="hero__title">Bottero Studios</h1>
+                    <p class="hero__sub">An app & website creation studio building independent projects — client work coming soon.</p>
+                    <p class="hero__support">Stealth project currently in development.</p>
+                    <div class="hero__ctas">
+                        <a href="#projects" class="btn btn--primary js-smooth-scroll">View our projects</a>
+                        <a href="#contact" class="btn btn--secondary js-smooth-scroll">Contact us</a>
                     </div>
                 </div>
+                <div class="hero__scroll" aria-hidden="true">
+                    <span class="hero__scroll-dot"></span>
+                </div>
             </div>
- 
         </div>
     </section>
-    <!-- Hero Section End -->
 
-    <!-- Services Section Begin -->
-    <section class="services spad">
-        <div class="container">
-            <div class="row">
+    <!-- Goal / About intro -->
+    <section class="section section--dark goal" id="goal">
+        <div class="container container--custom">
+            <div class="row align-items-start">
                 <div class="col-lg-4">
-                    <div class="services__title">
-                        <div class="section-title">
-                            <span>Our Goal</span>
-                            <h2>What We're Aiming to Accomplish</h2>
-                        </div>
-                        <p>We are Bottero Studios. We plan to create diverse and creative projects to entertain and help the public. Our goal is to benefit our community through our various services. We hope to inspire others to create and develop projects of their own with our innovative ideas.</p>
+                    <div class="section-title reveal-item">
+                        <span class="section-title__eyebrow">Our goal</span>
+                        <h2>What we're aiming for</h2>
                     </div>
+                    <p class="reveal-item">We're an app & website creation studio. We build independent projects, will start taking clients soon, and have a new stealth project in the works.</p>
                 </div>
                 <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="services__item">
-                                <div class="services__item__icon">
-                                    <img src="img/icons/si-1.png" alt="">
+                    <div class="row" id="projects">
+                        <div class="col-md-6 col-lg-6 mb-4 mb-lg-0">
+                            <article class="card reveal-item" data-reveal-delay="0">
+                                <div class="card__icon-wrap">
+                                    <img src="img/icons/si-1.png" alt="" class="card__icon">
                                 </div>
-                                <h4>Bottero Discord Bot</h4>
-                                <p>This was our first project, marking the start of Bottero Studios. We built a Discord bot that performs various commands based on user input. It includes chat and music commands and has great potential for future improvements.</p>
-                            </div>
+                                <h3 class="card__title">Bottero Discord Bot</h3>
+                                <p class="card__value">Our first project — a Discord bot that brings chat and music to your server.</p>
+                                <ul class="card__features">
+                                    <li>Chat commands</li>
+                                    <li>Music playback</li>
+                                    <li>Extensible for future features</li>
+                                </ul>
+                                <div class="card__chips">
+                                    <span class="chip">Discord.py</span>
+                                    <span class="chip">Python</span>
+                                </div>
+                                <div class="card__actions">
+                                    <span class="btn btn--ghost btn--disabled">No demo link yet</span>
+                                </div>
+                            </article>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="services__item">
-                                <div class="services__item__icon">
-                                    <img src="img/icons/si-2.png" alt="">
+                        <div class="col-md-6 col-lg-6">
+                            <article class="card reveal-item" data-reveal-delay="1">
+                                <div class="card__icon-wrap">
+                                    <img src="img/icons/si-2.png" alt="" class="card__icon">
                                 </div>
-                                <h4>SignSpeak</h4>
-                                <p>This project had two parts. The first was a robotic hand that could perform signs of the ASL alphabet. The second was a website that allowed users to perform hand signs that would be translated into English. This project won us $320 as the first-place prize at HackMCST.</p>
-                            </div>
+                                <h3 class="card__title">SignSpeak</h3>
+                                <p class="card__value">ASL learning aid: robotic hand + web app for sign-to-English translation.</p>
+                                <ul class="card__features">
+                                    <li>Robotic hand for ASL alphabet</li>
+                                    <li>Web app for hand-sign translation</li>
+                                    <li>First place — HackMCST ($320)</li>
+                                </ul>
+                                <div class="card__chips">
+                                    <span class="chip">Hardware</span>
+                                    <span class="chip">Web</span>
+                                </div>
+                                <div class="card__actions">
+                                    <span class="btn btn--ghost btn--disabled">Learn more on About</span>
+                                </div>
+                            </article>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Services Section End -->
 
-
-    <!-- Team Section End -->
-
-    <!-- Footer Section End -->
-    <footer>
-        <div class="footer">
-            <div class="FOOT">
-                <div class="footer_Head">
-                    <p>Contact Us</p>
+    <!-- Stats strip -->
+    <section class="section section--dark stats-strip">
+        <div class="container container--custom">
+            <div class="stats-strip__inner">
+                <div class="stats-strip__divider" aria-hidden="true"></div>
+                <div class="stats__item reveal-item">
+                    <span class="stats__value" data-stat="2">2+</span>
+                    <span class="stats__label">Projects shipped</span>
                 </div>
-                <div class="footer_List">
-                    <p>Phone Number: COMING SOON</p>
-                    <br><br>
-                    <p>Email: Botterostudios@gmail.com</p>
+                <div class="stats-strip__divider" aria-hidden="true"></div>
+                <div class="stats__item reveal-item">
+                    <span class="stats__value" data-stat="1">1</span>
+                    <span class="stats__label">Hackathon win</span>
                 </div>
-                <div class="header_logo">
-                    <a href="./index.html"><img src="img/logo.png" alt="Bottero Studios logo"></a>
-                </div>             
-            </div>   
+                <div class="stats-strip__divider" aria-hidden="true"></div>
+                <div class="stats__item reveal-item">
+                    <span class="stats__value" data-stat="4">4</span>
+                    <span class="stats__label">Team members</span>
+                </div>
+                <div class="stats-strip__divider" aria-hidden="true"></div>
+                <div class="stats__item reveal-item">
+                    <span class="stats__value">Soon</span>
+                    <span class="stats__label">Client work</span>
+                </div>
+                <div class="stats-strip__divider" aria-hidden="true"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech stack -->
+    <section class="section section--dark tech-section">
+        <div class="container container--custom">
+            <div class="section-title section-title--center reveal-item">
+                <span class="section-title__eyebrow">Tech stack</span>
+                <h2>What we use</h2>
+            </div>
+            <div class="tech-grid reveal-item">
+                <!-- Edit stack items below -->
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">JavaScript</span>
+                <span class="tech-chip">HTML / CSS</span>
+                <span class="tech-chip">Discord.py</span>
+                <span class="tech-chip">Hardware / Robotics</span>
+                <span class="tech-chip">Web APIs</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--dark contact-section" id="contact">
+        <div class="container container--custom">
+            <div class="contact__inner reveal-item">
+                <div class="section-title section-title--center">
+                    <span class="section-title__eyebrow">Get in touch</span>
+                    <h2>Contact</h2>
+                </div>
+                <p class="contact__lead">Open to collaborations — client projects opening soon.</p>
+                <div class="contact__availability pill">Taking clients: soon</div>
+                <div class="contact__email">
+                    <a href="mailto:Botterostudios@gmail.com" class="btn btn--primary">
+                        <i class="fa fa-envelope" aria-hidden="true"></i> Botterostudios@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer section--dark">
+        <div class="container container--custom">
+            <div class="footer__inner">
+                <a href="./index.html" class="footer__logo"><img src="img/logo.png" alt="Bottero Studios"></a>
+                <p class="footer__copy">© Bottero Studios. App & website creation studio.</p>
+            </div>
         </div>
     </footer>
 
-    <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
 </body>
-
 </html>
