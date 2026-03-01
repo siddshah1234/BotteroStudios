@@ -21,8 +21,8 @@
   --shadow-lg: 0 24px 48px rgba(0, 0, 0, 0.35);
 
   /* Spacing */
-  --section-padding-y: 96px;
-  --section-padding-y-mobile: 64px;
+  --section-padding-y: 72px;
+  --section-padding-y-mobile: 56px;
   --container-max: 1140px;
   --container-gutter: 24px;
 

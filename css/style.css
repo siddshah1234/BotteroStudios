@@ -1111,6 +1111,16 @@ ol {
   height: 490px;
 }
 
+/* Team profile pages: show full image (no crop) */
+.about.team-profile .about__pic__item.about__pic__item--large {
+  height: 520px;
+  min-height: 480px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-color: var(--surface2, #334155);
+}
+
 .about__text {
   padding-left: 30px;
 }

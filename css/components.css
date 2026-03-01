@@ -327,8 +327,8 @@
 
 /* ---- Stats strip ---- */
 .stats-strip {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
 .stats-strip__inner {
@@ -386,7 +386,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.75rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .tech-chip {
@@ -415,7 +415,7 @@
 .contact__lead {
   font-size: 1.05rem;
   color: var(--text-muted);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .contact__availability {
@@ -425,7 +425,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--accent);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding: 0.35rem 0.85rem;
   background: var(--accent-dim);
   border-radius: 999px;
@@ -465,7 +465,7 @@
 .footer__copy { font-size: 0.9rem; color: var(--text-muted); margin: 0; }
 
 /* ---- Section title (theme-aware) ---- */
-.section-title { margin-bottom: 2rem; }
+.section-title { margin-bottom: 1.5rem; }
 .section-title__eyebrow {
   display: block;
   font-size: 0.75rem;
