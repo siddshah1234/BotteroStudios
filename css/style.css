@@ -133,14 +133,7 @@ ol {
   padding-bottom: 25px;
 }
 .section-title h2:after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 4px;
-  width: 70px;
-  background: linear-gradient(90deg, #f59e0b, #ea580c);
-  content: "";
-  border-radius: 2px;
+  display: none;
 }
 
 .set-bg {

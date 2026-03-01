@@ -379,7 +379,7 @@
 
 /* ---- Tech stack ---- */
 .section-title--center { text-align: center; }
-.section-title--center h2::after { left: 50%; margin-left: -35px; }
+.section-title--center h2::after { display: none; }
 
 .tech-grid {
   display: flex;
@@ -442,7 +442,7 @@
   .hero__title { font-size: clamp(1.75rem, 6vw, 2.25rem); }
   .hero__ctas { flex-direction: column; }
   .hero__ctas .btn { width: 100%; }
-  .section-title--center h2::after { left: 0; margin-left: 0; }
+  .section-title--center h2::after { display: none; }
 }
 
 @media (max-width: 991px) {
@@ -485,14 +485,7 @@
 }
 
 .section-title h2::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 48px;
-  height: 4px;
-  background: linear-gradient(90deg, var(--accent), #ea580c);
-  border-radius: 2px;
+  display: none; /* Orange accent bar removed per design */
 }
 
 /* ---- Reveal (scroll animation) ---- */
