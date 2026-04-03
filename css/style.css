@@ -1092,6 +1092,11 @@ ol {
   font-weight: 300;
   display: inline-block;
 }
+.breadcrumb__text p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*---------------------
   About
