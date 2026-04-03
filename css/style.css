@@ -128,7 +128,6 @@ ol {
 .section-title h2 {
   color: var(--text, #f8fafc);
   font-weight: 700;
-  text-transform: uppercase;
   position: relative;
   padding-bottom: 25px;
 }
