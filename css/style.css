@@ -1106,9 +1106,21 @@ ol {
   height: 235px;
   margin-right: -10px;
   margin-bottom: 20px;
+  overflow: hidden;
+}
+.about__pic__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .about__pic__item.about__pic__item--large {
   height: 490px;
+}
+
+/* About page top padding (replaces inline style) */
+.about--page-top {
+  padding-top: 140px;
 }
 
 /* Team profile pages: full image with proper wrapping */
